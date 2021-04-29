@@ -1,0 +1,15 @@
+[user]
+	username = Hang Xie
+	email = hangxie-ext@appannie.com
+[alias]
+	st = status
+	cm = commit -m
+	a = add
+	co = checkout
+	nb = checkout -b
+	fork = "!f(){ git fetch origin \"$1\" && git checkout \"$1\" && git checkout -b \"$1_fork\" && git push --set-upstream origin \"$1_fork\"; }; f"
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+
